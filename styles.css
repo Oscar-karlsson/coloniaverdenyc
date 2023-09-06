@@ -1,0 +1,591 @@
+body {
+    color: #333;
+    background-color: #FFFDED;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FFFDED;
+    width: 100%;
+}
+
+.logo {
+    justify-content: center;
+
+}
+
+.logo img {
+width: 250px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 40px;
+    
+}
+
+.navbar ul li {
+    top: 0;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-family: Regular,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 18px;
+    vertical-align: top;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255,139,121);
+}
+
+
+.header-background img {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    left: 0;
+    z-index: -2;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    padding-top: 300px;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.title h1 {
+    margin: 0;
+    font-family: Regular,sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+  
+}
+
+
+main {
+    padding-top: 1110px;
+}
+
+
+.section-1 {
+    display: flex;
+    color: #02594d;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Galaxiecopernicus book',sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    position: relative;
+    top: auto;
+    bottom: auto;
+}
+.paragraph-1 {
+width: 65vw;
+color: #02594d;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-family: Galaxiecopernicus book,sans-serif;
+font-size: 20px;
+line-height: 34px;
+display: flex;
+position: relative;
+top: auto;
+bottom: auto;
+margin-bottom: 70px;
+}
+
+
+.section-2 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-2 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-link {
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 50px 20px;
+    font-family: Regular,sans-serif;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.text-columm {
+    background-color: #d9e5db;
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph-2 {
+    color: #02594d;
+    display: block;
+    text-align: left;
+    margin: 0 0 20px;
+    padding: 50px;
+    font-family: 'Galaxiecopernicus book',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.button-1 {
+        color: #fffded;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background-color: #02594d;
+        padding: 10px 25px;
+        font-family: Regular,sans-serif;
+        position: relative;
+        margin-top: -55px;
+        margin-right: 400px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+.button-1:hover {
+    background-color: #ff8674
+}
+.section-2 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-2 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.image-link {
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 50px 20px;
+    font-family: Regular,sans-serif;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.image-link:hover {
+    color: #ff8674
+}
+
+
+.text-columm {
+    background-color: #d9e5db;
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph-2 {
+    color: #02594d;
+    display: block;
+    text-align: left;
+    margin: 0 0 20px;
+    padding: 50px;
+    font-family: 'Galaxiecopernicus book',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.button-1 {
+        color: #fffded;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background-color: #02594d;
+        padding: 10px 25px;
+        font-family: Regular,sans-serif;
+        position: relative;
+        margin-top: -55px;
+        margin-right: 400px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+.button-1:hover {
+    background-color: #ff8674
+}
+
+
+
+
+.section-3 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-3 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    text-decoration: none;
+}
+
+.image-link-2 {
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 50px 20px;
+    font-family: Regular,sans-serif;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.image-link-2:hover {
+    color: #ff8674
+}
+
+
+.text-columm-2 {
+    background-color: #ffde9f;
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph-3 {
+    color: #02594d;
+    display: block;
+    text-align: left;
+    margin: 0 0 20px;
+    padding: 50px;
+    font-family: 'Galaxiecopernicus book',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+}
+.button-2 {
+        color: #fffded;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background-color: #02594d;
+        padding: 10px 25px;
+        font-family: Regular,sans-serif;
+        position: absolute;
+        margin-top: -55px;
+        font-weight: bold;
+        text-decoration: none;
+        top: calc(100% + 10px);
+        left: 0;
+    }
+
+
+.button-2:hover {
+    background-color: #ff8674
+}
+
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    color: #02594d;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Regular,sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: -40px;
+}
+
+.subscribe {
+    text-align: center;
+    color: #d5d3c1;
+    background-color: #fffded;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: Galaxiecopernicus book,sans-serif;
+    font-size: 12px;
+}
+
+.subscribe input {
+    padding: 8px;
+    margin-right: -5px;
+    margin-top: 5px;
+}
+
+.submit-button {
+    color: #fffded;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #02594d;
+    border: 1px solid #d9e5db;
+    border-radius: 2px;
+    flex: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Regular,sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 8px 20px;
+}
+
+.submit-button :hover{
+    background-color: #ff8674
+}
+.paragraph-4 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.subscribe .email {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.section-3 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section-5 {
+    position: relative;
+}
+
+.section-5 img {
+    width: 100%;
+    height: 390px;
+    position: relative;
+    display: block;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.section-5 .heading-2 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    clear: none;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    flex: 0 auto;
+    align-self: auto;
+    margin-top: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Regular,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.button-3 {
+    float: left;
+    text-align: center;
+    clear: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #02594d;
+    border-radius: 4px;
+    flex-flow: row;
+    flex: 0 auto;
+    order: 0;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px 30px 8px;
+    font-family: Regular,sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+
+.button-3:hover {
+    background-color: #ff8674
+}
+
+.footer {
+    width: 100%;
+    color: #02594d;
+    text-align: center;
+    background-color: #fffded;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'Galaxiecopernicus book',sans-serif;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Regular,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.footer ul  {
+    list-style-type: none;
+    
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #02594d;
+    display: flex;
+}
+
+.footer ul li a :hover {
+    text-decoration: underline;
+}
+.block {
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.social-media-logo img {
+    width: 30px;
+}
+
+.footer .copyright {
+        color: #5c573d;
+        -webkit-text-stroke-color: #5c573d;
+        font-size: 12px;
+        font-style: normal;
+    }
+
+    .block p {
+        text-align: center;
+        padding-left: 150px;
+        position: absolute;
+       
+      }
