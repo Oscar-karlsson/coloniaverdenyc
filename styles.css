@@ -435,7 +435,7 @@ margin-bottom: 70px;
     padding: 8px 20px;
 }
 
-.submit-button :hover{
+.submit-button:hover{
     background-color: #ff8674
 }
 .paragraph-4 {
@@ -557,7 +557,6 @@ margin-bottom: 70px;
 .footer ul li a{
     text-decoration: none;
     color: #02594d;
-    display: flex;
 }
 
 .footer ul li a :hover {
@@ -572,7 +571,7 @@ margin-bottom: 70px;
 
 }
 
-.social-media-logo img {
+.social-media-container img {
     width: 30px;
 }
 
@@ -589,3 +588,38 @@ margin-bottom: 70px;
         position: absolute;
        
       }
+
+     .social-media-logo {
+        display: inline-block;
+     }
+
+     .social-media-logo :hover {
+        opacity: 0.4
+     }
+
+
+     #scroll-button-container {
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        z-index: 999; 
+        align-items: center;
+        justify-content: center;
+        right: 40%;
+    }
+    
+    #scroll-button {
+        min-height: 40px;
+        min-width: 288px;
+        border-radius: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'DD-TTNorms', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 700;
+        font-size: 16px;
+        text-decoration: none;
+        box-shadow: none;
+        background-color: #02594d;
+        color: rgb(255, 255, 255) 
+    }
